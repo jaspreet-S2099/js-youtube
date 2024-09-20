@@ -57,3 +57,9 @@ gamecounter++;
 console.log(gamecounter);
 
 
+//https://tc39.es/ecma262/multipage/abstract-operations.html
+
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+
+
