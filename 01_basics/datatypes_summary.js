@@ -52,9 +52,9 @@ console.log(typeof bignumber);
 
 /*
 Return type of variables in JavaScript
-1) Primitive Datatypes
-       Number => number
-       String  => string
+1) Primitive Datatypes              
+       Number => number             
+       String  => string            
        Boolean  => boolean
        null  => object
        undefined  =>  undefined
@@ -67,7 +67,30 @@ Return type of variables in JavaScript
        Object  =>  object
  */
 
+//************************************************************************** */
+// STACK-> primitive types
+//HEAP-> non primitive "
 
 
 
+let myname="jaspreet singh"
+let othername=myname
+othername="Harry puttar"
 
+console.log(myname);
+console.log(othername);         //example of STACK implementation
+                                //we work on copy values
+
+
+let user1={
+    email: "test@yahoo.com",
+    upi: "user@apl"
+}
+
+let user2=user1
+
+user2.email="real@gmail.com"
+
+console.log(user1.email);           //syntax of referencing objects
+console.log(user2.email);           //example of HEAP implementation
+                                //in heap we work on original reference(real time changes everywhere) 
